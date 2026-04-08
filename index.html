@@ -1,329 +1,153 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="en-US">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hybrid Media – A Communications Agency</title>
-    <meta name="description" content="Hybrid Media is a dedicated communications agency using a mix of marketing and public relations to grow your business through event direction, web development, branding, and more.">
-    
-    <!-- Open Graph -->
-    <meta property="og:title" content="Hybrid Media – A Communications Agency">
-    <meta property="og:description" content="A dedicated communications agency using a mix of marketing and public relations to grow your business.">
-    <meta property="og:type" content="website">
-    <meta property="og:image" content="https://hybridmediaonline.com/wp-content/uploads/2025/03/welcome-logo-1024x524.png">
-    <meta property="og:url" content="https://hybridmediaonline.com/">
-
-    <!-- Favicon -->
-    <link rel="icon" href="https://hybridmediaonline.com/wp-content/uploads/2025/03/welcome-logo-1024x524.png">
-    <link rel="shortcut icon" href="https://hybridmediaonline.com/wp-content/uploads/2025/03/welcome-logo-1024x524.png">
-    <link rel="apple-touch-icon" href="https://hybridmediaonline.com/wp-content/uploads/2025/03/welcome-logo-1024x524.png">
-
-    <!-- Canonical -->
-    <link rel="canonical" href="https://hybridmediaonline.com/">
-
-    <!-- Hero image preload -->
-    <link rel="preload" as="image" href="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=2070&auto=format&fit=crop">
-
-    <!-- JSON-LD Structured Data -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "ProfessionalService",
-      "name": "Hybrid Media LLC",
-      "description": "Hybrid Media is comprised of a dedicated team of passionate industry professionals. We devise a lean strategy keeping both marketing and public relations in mind, working efficiently to streamline messages and connect clients with outlets that can grow their business.",
-      "url": "https://hybridmediaonline.com/",
-      "image": "https://hybridmediaonline.com/wp-content/uploads/2025/03/welcome-logo-1024x524.png",
-      "logo": "https://hybridmediaonline.com/wp-content/uploads/2025/03/welcome-logo-1024x524.png"
-    }
-    </script>
-
-    <!-- Tailwind + Fonts -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-    <script>
-        tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        primary: '#669966',
-                        secondary: '#333333',
-                        accent: '#FFFFFF',
-                    },
-                    fontFamily: {
-                        sans: ['Poppins', 'sans-serif'],
-                        body: ['Roboto', 'sans-serif'],
-                    }
-                }
-            }
-        }
-    </script>
-    <style>
-        body {
-            font-family: 'Roboto', sans-serif;
-        }
-        h1, h2, h3, h4, h5, h6 {
-            font-family: 'Poppins', sans-serif;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hybrid Media — Communications Agency</title>
+  <meta name="description" content="Hybrid Media delivers strategic communications, digital storytelling, and creative campaigns that help modern businesses strengthen visibility and growth.">
+  <meta property="og:title" content="Hybrid Media — Communications Agency">
+  <meta property="og:description" content="Hybrid Media delivers strategic communications, digital storytelling, and creative campaigns that help modern businesses strengthen visibility and growth.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?auto=format&fit=crop&w=1200&q=80">
+  <link rel="canonical" href="https://example.com/">
+  <link rel="icon" href="https://quseprdus1.blob.core.windows.net/kora-business-images/user-media/097fbe0f-f917-44b5-b25e-77641ba72bdb/0b8e8303-87c0-4895-ad63-61c214049730/1775652576_5m5z6h.jpeg" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400&family=Roboto:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body class="bg-accent text-secondary">
+<body>
+  <!-- Mobile Menu Toggle -->
+  <button class="mobile-menu-toggle" id="menu-toggle" aria-label="Menu">
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
 
-    <script>
-        window.KORA_SITE_CONFIG = {
-            apiBaseUrl: "", // This will be populated by the backend
-            businessId: "097fbe0f-f917-44b5-b25e-77641ba72bdb",
-            recaptchaSiteKey: "" // This will be populated by the backend
-        };
-    </script>
+  <!-- Top Header Navigation -->
+  <header class="top-header">
+    <a href="index.html" class="header-logo">
+      <img src="https://quseprdus1.blob.core.windows.net/kora-business-images/user-media/097fbe0f-f917-44b5-b25e-77641ba72bdb/0b8e8303-87c0-4895-ad63-61c214049730/1775652593_es0fik.jpeg" alt="Hybrid Media">
+    </a>
+    
+    <nav>
+      <ul class="header-nav" id="header-nav">
+        <li><a href="index.html" class="active">Welcome</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="social.html">Social</a></li>
+        <li><a href="awareness.html">Awareness</a></li>
+        <li><a href="careers.html">Careers</a></li>
+        <li><a href="press-room.html">Press Room</a></li>
+      </ul>
+    </nav>
+    
+    <div class="header-social">
+      <a href="https://www.facebook.com/hybridmediacomm" target="_blank" rel="noopener" aria-label="Facebook">
+        <svg viewBox="0 0 512 512"><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"/></svg>
+      </a>
+      <a href="http://instagram.com/hybridmediacomm" target="_blank" rel="noopener" aria-label="Instagram">
+        <svg viewBox="0 0 448 512"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg>
+      </a>
+      <a href="https://www.youtube.com/@hybridmedia4360" target="_blank" rel="noopener" aria-label="YouTube">
+        <svg viewBox="0 0 576 512"><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
+      </a>
+    </div>
+  </header>
 
-    <!-- Header -->
-    <header class="bg-white/80 backdrop-blur-md fixed top-0 left-0 right-0 z-50 shadow-sm">
-        <div class="container mx-auto px-6 py-3 flex justify-between items-center">
-            <a href="#" class="flex items-center">
-                <img src="https://hybridmediaonline.com/wp-content/uploads/2025/03/welcome-logo-1024x524.png" alt="Hybrid Media Logo" class="h-12 mr-3">
-            </a>
-            <nav class="hidden md:flex items-center space-x-8">
-                <a href="#about" class="text-secondary hover:text-primary transition-colors">About</a>
-                <a href="#services" class="text-secondary hover:text-primary transition-colors">Services</a>
-                <a href="#portfolio" class="text-secondary hover:text-primary transition-colors">Portfolio</a>
-                <a href="#contact" class="bg-primary text-white px-4 py-2 rounded-md hover:bg-opacity-90 transition-colors">Contact Us</a>
-            </nav>
-            <button id="mobile-menu-button" class="md:hidden">
-                <i data-lucide="menu"></i>
-            </button>
+  <!-- Main Content -->
+  <main class="main-content">
+    <!-- Hero Split -->
+    <section class="hero-split">
+      <div class="hero-visual">
+        <div class="hero-logo-wrap">
+          <img src="https://quseprdus1.blob.core.windows.net/kora-business-images/user-media/097fbe0f-f917-44b5-b25e-77641ba72bdb/0b8e8303-87c0-4895-ad63-61c214049730/1775652584_6pqvfd.jpeg" alt="Hybrid Media">
+          <img src="https://quseprdus1.blob.core.windows.net/kora-business-images/user-media/097fbe0f-f917-44b5-b25e-77641ba72bdb/0b8e8303-87c0-4895-ad63-61c214049730/1775652568_54ifux.jpeg" alt="" class="hero-clover">
         </div>
-        <!-- Mobile Menu -->
-        <div id="mobile-menu" class="hidden md:hidden bg-white">
-            <a href="#about" class="block py-2 px-6 text-secondary hover:bg-gray-100">About</a>
-            <a href="#services" class="block py-2 px-6 text-secondary hover:bg-gray-100">Services</a>
-            <a href="#portfolio" class="block py-2 px-6 text-secondary hover:bg-gray-100">Portfolio</a>
-            <a href="#contact" class="block py-2 px-6 text-secondary hover:bg-gray-100">Contact Us</a>
+      </div>
+      <div class="hero-content-side">
+        <span class="hero-eyebrow">Communications Agency</span>
+        <h1 class="hero-title">Where <span>Marketing</span> meets <span>Public Relations</span></h1>
+        <p class="hero-desc">We do what we love, and love what we do. A dedicated team of passionate industry professionals creating hybrid strategies that grow your business.</p>
+        <a href="about.html" class="hero-cta">
+          Discover Our Story
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </a>
+      </div>
+    </section>
+
+    <!-- Quote Section -->
+    <section class="quote-section">
+      <div class="quote-slider">
+        <button class="quote-nav-btn prev" aria-label="Previous">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="24" height="24"><path d="M15 18l-6-6 6-6"/></svg>
+        </button>
+        <button class="quote-nav-btn next" aria-label="Next">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="24" height="24"><path d="M9 18l6-6-6-6"/></svg>
+        </button>
+        
+        <div class="quote-slide active">
+          <p class="quote-text">Adjective: /hī brid/ 1. Of mixed character; composed of mixed parts. A thing made by combining two different elements; a mixture.</p>
+          <p class="quote-author">— Hybrid</p>
         </div>
-    </header>
+        <div class="quote-slide">
+          <p class="quote-text">Just being online won't mean being seen there. Creativity will still determine whether or not we attract, engage and persuade.</p>
+          <p class="quote-author">— Jay Schulberg</p>
+        </div>
+        <div class="quote-slide">
+          <p class="quote-text">Service is delivering on your promise. Hospitality is making people feel good while you're delivering on that promise.</p>
+          <p class="quote-author">— Danny Meyer</p>
+        </div>
+        <div class="quote-slide">
+          <p class="quote-text">If you don't get noticed, you don't have anything. The art is in getting noticed naturally, without screaming or without tricks.</p>
+          <p class="quote-author">— Leo Burnett</p>
+        </div>
+        <div class="quote-slide">
+          <p class="quote-text">Strategy without tactics is the slowest route to victory. Tactics without strategy is the noise before defeat.</p>
+          <p class="quote-author">— Sun Tzu</p>
+        </div>
+        
+        <div class="quote-dots">
+          <button class="active" aria-label="Quote 1"></button>
+          <button aria-label="Quote 2"></button>
+          <button aria-label="Quote 3"></button>
+          <button aria-label="Quote 4"></button>
+          <button aria-label="Quote 5"></button>
+        </div>
+      </div>
+    </section>
 
-    <main>
-        <!-- Hero Section -->
-        <section id="home" class="relative h-screen flex items-center justify-center text-center text-white">
-            <div class="absolute inset-0 bg-black opacity-50"></div>
-            <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=2070&auto=format&fit=crop" 
-                 alt="A modern office environment with professionals collaborating." 
-                 class="absolute inset-0 w-full h-full object-cover"
-                 loading="eager" fetchpriority="high" decoding="async" width="2070" height="1380">
-            <div class="relative z-10 p-6">
-                <h1 class="text-5xl md:text-7xl font-bold uppercase tracking-wider">Hybrid Media</h1>
-                <p class="text-xl md:text-2xl mt-4 font-light">A Communications Agency</p>
-                <p class="mt-6 max-w-2xl mx-auto text-lg">...using a mix of Marketing and Public Relations to grow your Business.</p>
-                <a href="#contact" class="mt-8 inline-block bg-primary text-white px-8 py-3 rounded-md text-lg font-semibold hover:bg-opacity-90 transition-transform hover:scale-105">Get in Touch</a>
-            </div>
-        </section>
-
-        <!-- About Section -->
-        <section id="about" class="py-20 bg-gray-50">
-            <div class="container mx-auto px-6 text-center">
-                <h2 class="text-4xl font-bold text-secondary">Who We Are</h2>
-                <div class="w-24 h-1 bg-primary mx-auto mt-4 mb-8"></div>
-                <p class="max-w-3xl mx-auto text-lg text-gray-600 leading-relaxed">
-                    Hybrid Media is comprised of a dedicated team of passionate industry professionals brought together by founder and communications strategist Sarah I. Bamford. We carefully select our clients based on their potential and zest. We devise a lean strategy keeping both marketing and public relations in mind, working efficiently to streamline messages and connect clients with outlets that can grow their business. Our comprehensive approach mixes traditional marketing and public relations with modern communication techniques to convey messages in the most impactful way.
-                </p>
-            </div>
-        </section>
-
-        <!-- Services Section -->
-        <section id="services" class="py-20">
-            <div class="container mx-auto px-6 text-center">
-                <h2 class="text-4xl font-bold text-secondary">Our Services</h2>
-                <div class="w-24 h-1 bg-primary mx-auto mt-4 mb-12"></div>
-                <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-                    <div class="bg-white p-8 rounded-lg shadow-lg text-center">
-                        <i data-lucide="calendar-check" class="w-16 h-16 text-primary mx-auto mb-4"></i>
-                        <h3 class="text-xl font-semibold mb-2">Event Direction</h3>
-                        <p class="text-gray-600">Crafting and managing memorable events that align with your brand's message and goals.</p>
-                    </div>
-                    <div class="bg-white p-8 rounded-lg shadow-lg text-center">
-                        <i data-lucide="code" class="w-16 h-16 text-primary mx-auto mb-4"></i>
-                        <h3 class="text-xl font-semibold mb-2">Web Development</h3>
-                        <p class="text-gray-600">Building modern, responsive websites that serve as a powerful tool for your business.</p>
-                    </div>
-                    <div class="bg-white p-8 rounded-lg shadow-lg text-center">
-                        <i data-lucide="palette" class="w-16 h-16 text-primary mx-auto mb-4"></i>
-                        <h3 class="text-xl font-semibold mb-2">Branding</h3>
-                        <p class="text-gray-600">Developing strong brand identities that resonate with your target audience.</p>
-                    </div>
-                    <div class="bg-white p-8 rounded-lg shadow-lg text-center">
-                        <i data-lucide="megaphone" class="w-16 h-16 text-primary mx-auto mb-4"></i>
-                        <h3 class="text-xl font-semibold mb-2">Advertising & Editorial</h3>
-                        <p class="text-gray-600">Gaining exposure through smart advertising and compelling editorial placements.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Portfolio Section -->
-        <section id="portfolio" class="py-20 bg-gray-50">
-            <div class="container mx-auto px-6">
-                <h2 class="text-4xl font-bold text-secondary text-center">Our Work</h2>
-                <div class="w-24 h-1 bg-primary mx-auto mt-4 mb-12"></div>
-                <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-                    <div class="overflow-hidden rounded-lg shadow-md"><img src="https://hybridmediaonline.com/wp-content/uploads/2025/04/archive_page-0001.jpg" alt="Portfolio image 1" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300" loading="lazy"></div>
-                    <div class="overflow-hidden rounded-lg shadow-md"><img src="https://hybridmediaonline.com/wp-content/uploads/2025/04/archive-4_page-0001.jpg" alt="Portfolio image 2" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300" loading="lazy"></div>
-                    <div class="overflow-hidden rounded-lg shadow-md"><img src="https://hybridmediaonline.com/wp-content/uploads/2025/04/archive-5_page-0001.jpg" alt="Portfolio image 3" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300" loading="lazy"></div>
-                    <div class="overflow-hidden rounded-lg shadow-md"><img src="https://hybridmediaonline.com/wp-content/uploads/2025/04/archive-5_page-0002.jpg" alt="Portfolio image 4" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300" loading="lazy"></div>
-                    <div class="overflow-hidden rounded-lg shadow-md"><img src="https://hybridmediaonline.com/wp-content/uploads/2025/04/archive-6_page-0001.jpg" alt="Portfolio image 5" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300" loading="lazy"></div>
-                    <div class="overflow-hidden rounded-lg shadow-md"><img src="https://hybridmediaonline.com/wp-content/uploads/2025/04/archive-6_page-0002.jpg" alt="Portfolio image 6" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300" loading="lazy"></div>
-                    <div class="overflow-hidden rounded-lg shadow-md"><img src="https://hybridmediaonline.com/wp-content/uploads/2025/04/archive-7_page-0001.jpg" alt="Portfolio image 7" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300" loading="lazy"></div>
-                    <div class="overflow-hidden rounded-lg shadow-md"><img src="https://hybridmediaonline.com/wp-content/uploads/2025/04/archive-8_page-0002.jpg" alt="Portfolio image 8" class="w-full h-full object-cover hover:scale-105 transition-transform duration-300" loading="lazy"></div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Contact Section -->
-        <section id="contact" class="py-20">
-            <div class="container mx-auto px-6">
-                <div class="max-w-2xl mx-auto text-center">
-                    <h2 class="text-4xl font-bold text-secondary">Get In Touch</h2>
-                    <div class="w-24 h-1 bg-primary mx-auto mt-4 mb-8"></div>
-                    <p class="text-lg text-gray-600 mb-8">Have a project in mind? We'd love to hear from you. Fill out the form below and we'll get back to you as soon as possible.</p>
-                </div>
-                <form id="contact-form" class="max-w-2xl mx-auto bg-white p-8 rounded-lg shadow-lg">
-                    <div id="form-container">
-                        <div class="mb-6">
-                            <label for="name" class="block text-gray-700 text-sm font-bold mb-2">Full Name</label>
-                            <input type="text" id="name" name="name" class="shadow appearance-none border rounded w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline focus:ring-2 focus:ring-primary" required>
-                        </div>
-                        <div class="mb-6">
-                            <label for="email" class="block text-gray-700 text-sm font-bold mb-2">Email Address</label>
-                            <input type="email" id="email" name="email" class="shadow appearance-none border rounded w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline focus:ring-2 focus:ring-primary" required>
-                        </div>
-                        <div class="mb-6">
-                            <label for="message" class="block text-gray-700 text-sm font-bold mb-2">Message</label>
-                            <textarea id="message" name="message" rows="5" class="shadow appearance-none border rounded w-full py-3 px-4 text-gray-700 leading-tight focus:outline-none focus:shadow-outline focus:ring-2 focus:ring-primary" required></textarea>
-                        </div>
-                        <div class="mb-6">
-                            <div id="recaptcha-container"></div>
-                        </div>
-                        <div class="text-center">
-                            <button type="submit" class="bg-primary text-white font-bold py-3 px-8 rounded-md hover:bg-opacity-90 transition-colors w-full">Send Message</button>
-                        </div>
-                    </div>
-                    <p id="form-message" class="mt-4 text-center"></p>
-                </form>
-            </div>
-        </section>
-    </main>
+    <!-- Cards Section -->
+    <section class="cards-grid">
+      <div class="glass-card">
+        <div class="card-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+        </div>
+        <h3 class="card-title">Marketing</h3>
+        <p class="card-text">Strategic campaigns that connect your brand with the right audience at the right time.</p>
+      </div>
+      <div class="glass-card">
+        <div class="card-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
+        </div>
+        <h3 class="card-title">Public Relations</h3>
+        <p class="card-text">Building relationships and managing your reputation across all media channels.</p>
+      </div>
+    </section>
 
     <!-- Footer -->
-    <footer class="bg-secondary text-white py-10">
-        <div class="container mx-auto px-6 text-center">
-            <div class="flex justify-center space-x-6 mb-4">
-                <a href="https://www.facebook.com/hybridmediacomm" target="_blank" rel="noopener noreferrer" class="hover:text-primary transition-colors"><i data-lucide="facebook" class="w-6 h-6"></i></a>
-                <a href="http://instagram.com/hybridmediacomm" target="_blank" rel="noopener noreferrer" class="hover:text-primary transition-colors"><i data-lucide="instagram" class="w-6 h-6"></i></a>
-                <a href="https://twitter.com/HybridMediaComm" target="_blank" rel="noopener noreferrer" class="hover:text-primary transition-colors"><i data-lucide="twitter" class="w-6 h-6"></i></a>
-                <a href="https://www.youtube.com/@hybridmedia4360" target="_blank" rel="noopener noreferrer" class="hover:text-primary transition-colors"><i data-lucide="youtube" class="w-6 h-6"></i></a>
-            </div>
-            <p>&copy; <span id="current-year"></span> Hybrid Media LLC. All Rights Reserved.</p>
-        </div>
+    <footer class="footer-dark">
+      <p class="footer-tagline">
+        …using a mix of Marketing and Public Relations to grow your Business.
+        <img src="https://quseprdus1.blob.core.windows.net/kora-business-images/user-media/097fbe0f-f917-44b5-b25e-77641ba72bdb/0b8e8303-87c0-4895-ad63-61c214049730/1775652568_54ifux.jpeg" alt="">
+      </p>
+      <p class="footer-copy">2026 © Hybrid Media LLC | All Rights Reserved</p>
     </footer>
+  </main>
 
-    <script src="https://unpkg.com/lucide@latest"></script>
-    <script src="https://www.google.com/recaptcha/api.js?onload=renderRecaptcha&render=explicit" async defer></script>
-    <script>
-        lucide.createIcons();
+  <!-- Toast -->
+  <div id="toast" class="toast"></div>
 
-        // Mobile menu toggle
-        const mobileMenuButton = document.getElementById('mobile-menu-button');
-        const mobileMenu = document.getElementById('mobile-menu');
-        mobileMenuButton.addEventListener('click', () => {
-            mobileMenu.classList.toggle('hidden');
-        });
-        document.querySelectorAll('#mobile-menu a').forEach(link => {
-            link.addEventListener('click', () => mobileMenu.classList.add('hidden'));
-        });
-
-        // Set current year in footer
-        document.getElementById('current-year').textContent = new Date().getFullYear();
-
-        // Contact Form
-        const form = document.getElementById('contact-form');
-        const formMessage = document.getElementById('form-message');
-        const formContainer = document.getElementById('form-container');
-        const recaptchaContainer = document.getElementById('recaptcha-container');
-        let recaptchaWidgetId;
-
-        function renderRecaptcha() {
-            const siteKey = window.KORA_SITE_CONFIG?.recaptchaSiteKey;
-            if (siteKey && recaptchaContainer) {
-                recaptchaWidgetId = grecaptcha.render('recaptcha-container', {
-                    'sitekey': siteKey
-                });
-            }
-        }
-
-        form.addEventListener('submit', async (e) => {
-            e.preventDefault();
-            const cfg = window.KORA_SITE_CONFIG || {};
-            const apiBaseUrl = (cfg.apiBaseUrl || '').replace(/\/+$/, '');
-            const businessId = cfg.businessId;
-            const recaptchaSiteKey = cfg.recaptchaSiteKey;
-
-            if (!apiBaseUrl || !businessId) {
-                formMessage.textContent = 'Form submission is currently unavailable. Please try again later.';
-                formMessage.className = 'mt-4 text-center text-red-500';
-                return;
-            }
-            
-            if (!recaptchaSiteKey) {
-                formMessage.textContent = 'Form is temporarily unavailable due to a configuration issue.';
-                formMessage.className = 'mt-4 text-center text-red-500';
-                return;
-            }
-
-            const formData = new FormData(form);
-            const name = formData.get('name').trim();
-            const email = formData.get('email').trim();
-            const message = formData.get('message').trim();
-
-            if (!name || !email || !message) {
-                formMessage.textContent = 'Please fill out all fields.';
-                formMessage.className = 'mt-4 text-center text-red-500';
-                return;
-            }
-
-            const captchaToken = grecaptcha.getResponse(recaptchaWidgetId);
-            if (!captchaToken) {
-                formMessage.textContent = 'Please complete the CAPTCHA.';
-                formMessage.className = 'mt-4 text-center text-red-500';
-                return;
-            }
-
-            formMessage.textContent = 'Sending...';
-            formMessage.className = 'mt-4 text-center text-gray-600';
-
-            try {
-                const response = await fetch(`${apiBaseUrl}/api/v1/public/forms/submit`, {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify({
-                        business_id: businessId,
-                        form_type: 'contact',
-                        form_data: { name, email, message },
-                        submitter_email: email,
-                        captcha_token: captchaToken
-                    })
-                });
-
-                if (response.ok) {
-                    formContainer.innerHTML = '<p class="text-center text-lg text-green-600">Thank you for your message! We will get back to you shortly.</p>';
-                } else {
-                    throw new Error('Submission failed');
-                }
-            } catch (error) {
-                formMessage.textContent = 'Something went wrong. Please try again.';
-                formMessage.className = 'mt-4 text-center text-red-500';
-                grecaptcha.reset(recaptchaWidgetId);
-            }
-        });
-    </script>
+  <script src="assets/js/main.js"></script>
 </body>
 </html>
