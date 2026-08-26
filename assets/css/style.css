@@ -1,13 +1,5 @@
 /* HYBRID MEDIA — Editorial Reimagining */
 
-@font-face {
-  font-family: "KG Drops of Jupiter";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url("../fonts/KGDropsofJupiter.ttf") format("truetype");
-}
-
 :root {
   /* Brand Colors */
   --primary: #488a68;
@@ -28,8 +20,8 @@
   --bg-white: #ffffff;
   --text-dark: #1a1f1c;
   
-  /* Typography */
-  --font-display: "KG Drops of Jupiter", sans-serif;
+  /* Typography — loaded via KORA_GOOGLE_FONTS */
+  --font-display: "Caveat", cursive;
   --font-body: "Roboto", system-ui, sans-serif;
   --font-serif: "Roboto Slab", Georgia, serif;
   
