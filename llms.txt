@@ -1,19 +1,36 @@
 # Hybrid Media
 
-> Hybrid Media — Using a mix of Marketing and Public Relations to grow your Business
+> Using a mix of Marketing and Public Relations to grow your Business
 
-## Location & Contact
-- Email: mann.prajapati@kysz.tech
+Hybrid Media is a communications agency that delivers strategic communications, digital storytelling, and creative campaigns through integrated marketing and public relations. Founded by communications strategist Sarah I. Bamford.
 
-## Hours
-- Monday: 
-- Tuesday: 
-- Wednesday: 
-- Thursday: 
-- Friday: 
-- Saturday: 
-- Sunday: 
+## Business
+- Legal name: Hybrid Media LLC
+- Website: https://hybridmediaonline.com/
+- Category: Communications agency (marketing + public relations)
 
-## Action Links
-- Start Your Project: https://example.com/contact
-- Explore Services: https://example.com/#services
+## Social
+- Facebook: https://www.facebook.com/hybridmediacomm
+- Instagram: https://instagram.com/hybridmediacomm
+- Twitter: https://twitter.com/HybridMediaComm
+- YouTube: https://www.youtube.com/@hybridmedia4360
+
+## Services
+- Marketing — Strategic campaigns that connect brands with the right audience
+- Public Relations — Relationship-building and reputation management across media
+- Hybrid Media Plan — Event direction, web development, branding, advertising, and editorial
+
+## Pages
+- [Home](https://hybridmediaonline.com/): Welcome, positioning, and overview
+- [About](https://hybridmediaonline.com/about.html): Story, founder Sarah I. Bamford, and approach
+- [Contact](https://hybridmediaonline.com/contact.html): Project inquiry form
+- [Social](https://hybridmediaonline.com/social.html): Social channels and community
+- [Awareness](https://hybridmediaonline.com/awareness.html): Awareness campaign intake
+- [Careers](https://hybridmediaonline.com/careers.html): Join the team
+- [Press Room](https://hybridmediaonline.com/press-room.html): Media coverage and press highlights
+
+## Brand
+- Primary: #488a68
+- Secondary: #f8faf9
+- Accent: #2d6a4f
+- Fonts: Caveat (display), Roboto (body), Roboto Slab (serif accents)
