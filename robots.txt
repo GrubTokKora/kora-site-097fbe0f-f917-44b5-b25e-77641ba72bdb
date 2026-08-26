@@ -1,7 +1,2 @@
 User-agent: *
 Disallow: /
-
-# Staging lock — when ready to index, replace with:
-# User-agent: *
-# Allow: /
-# Sitemap: https://hybridmediaonline.com/sitemap.xml
