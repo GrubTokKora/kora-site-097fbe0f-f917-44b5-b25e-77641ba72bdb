@@ -114,6 +114,14 @@
     });
   });
 
+  document.querySelectorAll('.press-card-media img').forEach(img => {
+    img.addEventListener('click', (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      openLightbox(img.src, img.alt);
+    });
+  });
+
   if (lightboxClose) {
     lightboxClose.addEventListener('click', closeLightboxFunc);
   }
