@@ -1556,10 +1556,21 @@
   }
 
   /* Hero */
-  .press-hero { height: auto; max-height: none; min-height: min(620px, calc(100vh - 80px)); }
-  .press-hero .hero-content-side { align-items: center; text-align: center; padding: 3rem; }
-  @media (max-width: 1024px) { .press-hero { min-height: 0; } .press-hero .hero-content-side { padding: 2rem 1.25rem 2.5rem; } }
-  .press-hero .hero-desc { max-width: 520px; }
+  /* Single centred column: content only, on the soft brand wash the old logo panel used */
+  .press-hero {
+    grid-template-columns: 1fr; height: auto; max-height: none;
+    min-height: min(560px, calc(100vh - 80px));
+    background:
+      radial-gradient(640px 360px at 50% 0%, rgba(72, 138, 104, 0.12), transparent 70%),
+      linear-gradient(180deg, var(--bg-darker) 0%, var(--bg-white) 100%);
+  }
+  .press-hero .hero-content-side {
+    align-items: center; text-align: center; background: transparent;
+    width: 100%; max-width: 880px; margin: 0 auto; padding: 4.5rem 2rem;
+  }
+  .press-hero .hero-title { font-size: clamp(2rem, 4.2vw, 3.4rem); }
+  .press-hero .hero-desc { max-width: 600px; font-size: 1.05rem; }
+  @media (max-width: 1024px) { .press-hero { min-height: 0; } .press-hero .hero-content-side { padding: 3rem 1.25rem 3.25rem; } }
   .hero-actions {
     display: flex;
     flex-wrap: wrap;
