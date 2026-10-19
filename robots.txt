@@ -1,2 +1,5 @@
 User-agent: *
-Disallow: /
+Allow: /
+Disallow: /.kora/
+
+Sitemap: https://hybridmediaonline.com/sitemap.xml

@@ -2,35 +2,22 @@
 
 > Using a mix of Marketing and Public Relations to grow your Business
 
-Hybrid Media is a communications agency that delivers strategic communications, digital storytelling, and creative campaigns through integrated marketing and public relations. Founded by communications strategist Sarah I. Bamford.
+Hybrid Media is a Connecticut communications agency that mixes marketing and public relations: media relations, press coverage, event direction, branding, web development and advertising. Founded by communications strategist Sarah I. Bamford. The website is a single page: the Hybrid Media Press Room, a collection of press coverage earned for the agency's clients.
 
 ## Business
 - Legal name: Hybrid Media LLC
 - Website: https://hybridmediaonline.com/
 - Category: Communications agency (marketing + public relations)
+- Area served: Connecticut and New York
 
 ## Social
 - Facebook: https://www.facebook.com/hybridmediacomm
-- Instagram: https://instagram.com/hybridmediacomm
-- Twitter: https://twitter.com/HybridMediaComm
-- YouTube: https://www.youtube.com/@hybridmedia4360
+- Instagram: https://www.instagram.com/hybridmediacomm
+- X: https://x.com/HybridMediaComm
 
-## Services
-- Marketing — Strategic campaigns that connect brands with the right audience
-- Public Relations — Relationship-building and reputation management across media
-- Hybrid Media Plan — Event direction, web development, branding, advertising, and editorial
+## Press Room
+27 press features across 15 outlets, including Greenwich Time, Patch, Moffly Media, Westfair, Greenwich Sentinel, Greenwich Free Press, WAG Magazine, Modern Luxury, CT Post, CT Insider, CTbites and 203 Local.
+Clients covered: I Love Greenwich, Shiki Hibachi & Sushi, La Tazza D'Oro NYC, MOLI, Hinoki, Miku Sushi, Meli-Melo, Bistro V, Wishing Well Pictures, Pro Eyecare, PilatesPrive, La Bocca White Plains NY, Pologeorgis, Pet Pantry Warehouse, Heather Gaudio Fine Art, The Longest Table Stamford, and founder Sarah Bamford.
 
 ## Pages
-- [Home](https://hybridmediaonline.com/): Welcome, positioning, and overview
-- [About](https://hybridmediaonline.com/about.html): Story, founder Sarah I. Bamford, and approach
-- [Contact](https://hybridmediaonline.com/contact.html): Project inquiry form
-- [Social](https://hybridmediaonline.com/social.html): Social channels and community
-- [Awareness](https://hybridmediaonline.com/awareness.html): Awareness campaign intake
-- [Careers](https://hybridmediaonline.com/careers.html): Join the team
-- [Press Room](https://hybridmediaonline.com/press-room.html): Media coverage and press highlights
-
-## Brand
-- Primary: #488a68
-- Secondary: #f8faf9
-- Accent: #2d6a4f
-- Fonts: Caveat (display), Roboto (body), Roboto Slab (serif accents)
+- [Press Room (Home)](https://hybridmediaonline.com/): Press coverage by client, about Hybrid Media, and social channels
