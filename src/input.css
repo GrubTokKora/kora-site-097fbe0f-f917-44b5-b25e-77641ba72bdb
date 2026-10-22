@@ -8,7 +8,8 @@
   --color-accent: #2d6a4f;
   --color-primary-dark: #1b4d3e;
   --font-heading: "Caveat", "Roboto Slab", Georgia, serif;
-  --font-body: "Roboto", system-ui, sans-serif;
+  --font-body: var(--kora-font-body, "Roboto"), system-ui, sans-serif;
+  --font-accent: var(--kora-font-accent, var(--font-heading)), var(--font-heading);
 }
 
 /* ===== HYBRID MEDIA — site styles =====
@@ -36,8 +37,8 @@
     --text-dark: #1a1f1c;
 
     /* Typography — loaded via KORA_GOOGLE_FONTS */
-    --font-body: "Roboto", system-ui, sans-serif;
-    --font-heading: "Roboto Slab", Georgia, serif;
+    --font-body: var(--kora-font-body, "Roboto"), system-ui, sans-serif;
+    --font-heading: var(--kora-font-heading, "Roboto Slab"), Georgia, serif;
 
     /* Spacing */
     --space-xs: 0.5rem;
@@ -1779,3 +1780,6 @@
     .cf-chip { padding: 0.55rem 0.8rem; font-size: 0.85rem; }
   }
 }
+
+/* Kora fonts: this site's own Google link never asked for optical sizing (Inter), so keep the look it was approved with. */
+@layer base { html { font-optical-sizing: none; } }
